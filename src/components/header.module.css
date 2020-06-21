@@ -8,26 +8,106 @@ html { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: 
 
 .visuallyhidden:not(:focus):not(:active) { position: absolute; width: 1px; height: 1px; margin: -1px;border: 0;padding: 0;white-space: nowrap;clip-path: inset(100%);clip: rect(00 0 0);overflow: hidden;}
 
-h2{
-    font-size: 56px;
-    font-family: 'DM Serif Display', serif;
+p{
+    margin: 0;
+    padding: 0;
+}
+header{
+    font-family:'Overpass', sans-serif;
 }
 
-img{
-    max-width: 100%;
+.stickyHeader{
+    /* position: fixed; */
 }
 
-button{
-    background-image: url('../images/buttonBackground.png');
-    color: white;
+.leadFlow{
+    text-align: center;
+    color: #f8f8f8;
     font-size: 18px;
-    background-size: cover;
-    border: 1px solid transparent;
-    padding: 10px 35px;
-    background-repeat: no-repeat;
-    background-color: transparent;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-image: url('../images/bannerBackground.png');
+    padding-top: 5px;
+}
+
+.logoBanner{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0
+}
+
+.logoBanner a{
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 21px;
+}
+
+.logoBanner a::after{
+    content: '\2192'
+}
+
+.twoColumnContainer{
+    display: flex;
+    width: 95%;
+    margin-left: 5%;
+    align-items: center;
+}
+
+.twoColumn{
+    width: 50%;
+}
+
+.left{
+    margin-right: 40px;
+
+}
+
+.left h1{
+    font-weight: 900;
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+.left p{
+    font-size: 24px;
 }
 
 .bold{
     font-weight: bold;
+}
+
+.priceRow{
+    display: flex;
+    font-family: 'DM Serif Display', serif;
+    align-items: flex-end;
+}
+
+.priceRow span:nth-child(2){
+    margin: 0 4% -1%;
+}
+
+.originalPrice{
+    color: #ff0000;
+    text-decoration: line-through;
+    font-size: 35px;
+}
+
+.newPrice{
+    font-size: 45px;
+}
+
+.shipping{
+    font-size: 23px;
+}
+
+.left button{
+    margin-top: 5%;
+    text-transform: uppercase;
+}
+
+.right img{
+    width: 100%;
 }

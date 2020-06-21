@@ -1,0 +1,30 @@
+
+.container{
+    position: relative;
+    width: 100%;
+    padding: 5% 0 7%;
+}
+
+.leftCorner{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    max-width: 320px;
+}
+
+.text{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.text p{
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Overpass', sans-serif;
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+.text p:last-of-type{
+    width: 80%;
+}
