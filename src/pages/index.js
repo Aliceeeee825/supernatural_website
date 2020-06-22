@@ -10,6 +10,11 @@ import SellingCard from '../components/SellingCard'
 import TableOfIngredient from '../components/TableOfIngrediant'
 import FourColumns from '../components/FourColumns'
 import CompareTable from '../components/CompareTable'
+import ThreeColumn from '../components/ThreeColumn'
+import Media from '../components/Media'
+import TwoColumnAlter from '../components/TwoColumnAlter'
+import ThirdParty from '../components/thirdParty'
+import TextWShape from '../components/TextWShape'
 
 const IndexPage = () => (
   <Layout>
@@ -20,6 +25,12 @@ const IndexPage = () => (
     <TableOfIngredient />
     <FourColumns />
     <CompareTable />
+    <ThreeColumn />
+    <Media />
+    <TwoColumnAlter />
+    <SellingCard />
+    <ThirdParty />
+    <TextWShape />
   </Layout>
 )
 

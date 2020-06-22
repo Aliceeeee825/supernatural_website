@@ -62,3 +62,14 @@ table.compareTable tbody tr:first-of-type td:last-of-type{
 }
 
 
+@media(max-width: 767px){
+    .compareTableContainer{
+      width: 95%;
+      margin-left: 5%;
+      overflow: auto; 
+      overflow-y: hidden;
+    }
+    table.compareTable{
+      width: 100%;
+    }
+}

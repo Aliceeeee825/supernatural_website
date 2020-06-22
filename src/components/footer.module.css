@@ -1,0 +1,53 @@
+footer{
+    background: url('../images//radicalBackground.png');
+    display: grid !important;
+    grid-template-columns: 1fr 1fr 1fr 2fr;
+    color: white;
+    font-family: 'Overpass', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 2% 5%;
+}
+
+footer p{
+    text-transform: uppercase;
+}
+
+footer ul{
+    margin: 4% 0 0;
+    padding: 0;
+}
+
+footer li{
+    list-style-type: none;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+.spacer{
+    height: 30px;
+}
+
+.stayUpdated{
+    border-bottom: 1px solid white;
+    margin-bottom: 3%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.stayUpdated p:first-of-type{
+    color: #D3DAEC
+}
+
+.arrow::after{
+    content:'>';
+    font-size: 20px;
+}
+
+.subscribe{
+    text-transform: none;
+}
+

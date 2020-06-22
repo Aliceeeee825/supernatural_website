@@ -1,0 +1,24 @@
+.thirdPartyContainer{
+    background: #8D8298;
+    padding-bottom: 6%;
+}
+
+.thirdPartyContainer p{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 18px;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 1.5
+}
+
+.thirdPartyContainer p:first-of-type{
+    text-transform: uppercase;
+    font-size: 20px;
+    width: 50%
+}
+
+.spacer{ 
+    height: 25px
+}

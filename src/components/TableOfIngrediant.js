@@ -16,7 +16,7 @@ const TableOfIngrediant = () => (
     <img className={`${style.leftLines} ${style.lines}`} src={linesLeft} alt=""/>
     <img className={`${style.rightLines} ${style.lines}`} src={linesRight} alt=""/>
 
-    <table className={style.TableOfIngrediant}>
+    <table className={style.tableOfIngrediant}>
       <thead>
         <tr>
           <th>Ingredient</th>

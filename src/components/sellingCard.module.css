@@ -126,3 +126,25 @@
 .ball{
     position: absolute;
 }
+
+/* responsive design */
+@media(max-width: 767px){
+    .twoColumnContainer{
+        flex-direction: column;
+        width: 90%;
+    }
+    .left, .right{
+        width: 100%;
+        margin: 0 auto;
+        padding-left: 10%;
+    }
+    .right{
+        order: -1
+    }
+}
+
+@media(max-width: 600px){
+    .installments{
+        flex-wrap: wrap;
+    }
+}

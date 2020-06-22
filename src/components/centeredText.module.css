@@ -15,6 +15,7 @@
 .text{
     width: 60%;
     margin: 0 auto;
+    text-align: center;
 }
 
 .text p{
@@ -27,4 +28,29 @@
 
 .text p:last-of-type{
     width: 80%;
+}
+
+/* responsive design */
+@media(max-width: 767px){
+    .text{
+        margin-bottom: 10%;
+    }
+    .leftCorner.desktop{
+        display: none;
+    }
+    .leftCorner.mobile{
+        display: block;
+        z-index: -1;
+        /* bottom: -15%; */
+        left: 35%;
+    }
+}
+
+@media (max-width: 500px){
+    .text{
+        margin-bottom: 18%;
+    }
+    .leftCorner.mobile{
+        left: 30%;
+    }
 }

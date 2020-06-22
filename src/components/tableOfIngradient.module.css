@@ -48,7 +48,7 @@
 }
 
 
- table.TableOfIngrediant {
+ table.tableOfIngrediant {
   border: 1px solid #C0A5CB;
   background-color: #FFFFFF;
   text-align: center;
@@ -58,31 +58,53 @@
   position: relative;
   z-index: 2
 }
- table.TableOfIngrediant td,  table.TableOfIngrediant th{
+ table.tableOfIngrediant td,  table.tableOfIngrediant th{
   padding: 20px 10px;
 }
- table.TableOfIngrediant tbody td {
+ table.tableOfIngrediant tbody td {
   font-size: 18px;
   color: #C0A5CB;
   border: 2px solid #C0A5CB;
 }
- table.TableOfIngrediant thead {
+ table.tableOfIngrediant thead {
   background: #C0A5CB;
 }
- table.TableOfIngrediant thead th {
+ table.tableOfIngrediant thead th {
   font-size: 19px;
   font-weight: bold;
   color: #FFFFFF;
   border-left: 2px solid #FFFFFF;
   font-family: 'Overpass', sans-serif;
 }
- table.TableOfIngrediant thead th:first-child {
+ table.tableOfIngrediant thead th:first-child {
   border-left: none;
 }
 
- table.TableOfIngrediant td:first-child{
+ table.tableOfIngrediant td:first-child{
     width: 50%;
 }
 
+@media(max-width: 767px){
+    table.tableOfIngrediant{
+        width: 80%;
+        margin-top: 5%;
+    }
+}
+
+@media(max-width: 580px){
+    .tableContainer{
+        padding-bottom: 20%;
+    }
+    .leftLines{
+        display: none;
+    }
+    .rightLines{
+        top:95%;
+        right: 25%;
+        transform: rotate(90deg);
+        width: 250px;
+        z-index: 1;
+    }
+}
 
 

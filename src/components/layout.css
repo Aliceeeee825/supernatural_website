@@ -8,6 +8,8 @@ html { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: 
 
 .visuallyhidden:not(:focus):not(:active) { position: absolute; width: 1px; height: 1px; margin: -1px;border: 0;padding: 0;white-space: nowrap;clip-path: inset(100%);clip: rect(00 0 0);overflow: hidden;}
 
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Overpass:wght@400;600;700;900&family=Roboto&display=swap');
+
 h2{
     font-size: 50px;
     font-family: 'DM Serif Display', serif;
@@ -21,6 +23,11 @@ h3{
     font-size: 50px;
     text-align: center;
     padding-top: 7%;
+}
+
+h5{
+    padding:0;
+    margin: 0;
 }
 
 img{
@@ -40,4 +47,27 @@ button{
 
 .bold{
     font-weight: bold;
+}
+
+.wrapper{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+@media(max-width: 767px){
+    h2{
+        font-size: 40px;
+    }
+    h3{
+        font-size: 35px;
+    }
+    h4{
+        font: 32px;
+    }
+}
+
+@media(max-width: 500px){
+    h2{
+        font-size: 36px;
+    }
 }

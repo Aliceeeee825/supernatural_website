@@ -1,0 +1,24 @@
+.textWShapeContainer{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.center{
+    width: 80%;
+    margin: 0 2%
+}
+
+.center p{
+    font-size: 35px;
+    font-family: 'Roboto', sans-serif;
+    background-image: linear-gradient(90deg, rgba(192,165,203,1) 0%, rgba(129,185,203,1) 20%, rgba(135,165,189,1) 40%, rgba(136,183,178,1) 60%, rgba(184,162,203,1) 80%, rgba(152,175,217,1) 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  margin: 3% auto 5%;
+}
+
+.right{
+    transform: rotate(180deg);
+}
