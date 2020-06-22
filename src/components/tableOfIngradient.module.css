@@ -1,0 +1,88 @@
+.tableContainer{
+    /* background: linear-gradient(40deg, rgba(129,185,203,1) 0%, rgba(135,165,189,1) 35%, rgba(136,183,178,1) 50%, rgba(184,162,203,1) 85%, rgba(152,175,217,1) 100%); */
+    background-image: url('../images/radicalBackground.png');
+    position: relative;
+    padding-bottom: 5% 
+}
+
+.lines{
+    position: absolute;
+    z-index: 1;
+}
+
+.leftLines, .rightLines{
+    top: 38%;
+}
+
+.rightLines{
+    right: 0
+}
+
+.category{
+    border-bottom: 1px solid white;
+    width: 50%;
+    margin: 0 auto;
+    padding-bottom: 1%;
+    margin-bottom: 1%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.category button{
+    color: white;
+    background: transparent;
+    font-weight: bold;
+    font-size: 24;
+    font-family: 'Overpass', sans-serif;
+    padding: 0
+}
+
+.minus::after{
+    content: '\2212';
+    font-size: 30px;
+}
+
+.plus::after{
+    content: '\002B';
+    font-size: 30px;
+}
+
+
+ table.TableOfIngrediant {
+  border: 1px solid #C0A5CB;
+  background-color: #FFFFFF;
+  text-align: center;
+  border-collapse: collapse;
+  width: 50%;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2
+}
+ table.TableOfIngrediant td,  table.TableOfIngrediant th{
+  padding: 20px 10px;
+}
+ table.TableOfIngrediant tbody td {
+  font-size: 18px;
+  color: #C0A5CB;
+  border: 2px solid #C0A5CB;
+}
+ table.TableOfIngrediant thead {
+  background: #C0A5CB;
+}
+ table.TableOfIngrediant thead th {
+  font-size: 19px;
+  font-weight: bold;
+  color: #FFFFFF;
+  border-left: 2px solid #FFFFFF;
+  font-family: 'Overpass', sans-serif;
+}
+ table.TableOfIngrediant thead th:first-child {
+  border-left: none;
+}
+
+ table.TableOfIngrediant td:first-child{
+    width: 50%;
+}
+
+
+

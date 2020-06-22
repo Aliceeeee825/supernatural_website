@@ -9,8 +9,18 @@ html { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: 
 .visuallyhidden:not(:focus):not(:active) { position: absolute; width: 1px; height: 1px; margin: -1px;border: 0;padding: 0;white-space: nowrap;clip-path: inset(100%);clip: rect(00 0 0);overflow: hidden;}
 
 h2{
-    font-size: 56px;
+    font-size: 50px;
     font-family: 'DM Serif Display', serif;
+    /* font-weight: bold */
+}
+
+h3{
+    color: white;
+    font-family: 'DM Serif Display', serif;
+    text-transform: capitalize;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 7%;
 }
 
 img{
@@ -23,7 +33,7 @@ button{
     font-size: 18px;
     background-size: cover;
     border: 1px solid transparent;
-    padding: 10px 35px;
+    padding: 10px 35px 13px;
     background-repeat: no-repeat;
     background-color: transparent;
 }

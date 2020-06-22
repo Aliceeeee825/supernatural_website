@@ -1,0 +1,35 @@
+.fourColumnsContainer{
+    padding: 5% 0;
+    display: flex;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.fourColumn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    margin: 0 2.5%
+}
+
+.fourColumn img:nth-of-type(2){
+    max-width:35px;
+    margin: 20px 0 10px;
+}
+
+.fourColumn p,
+.fourColumn h6{
+    font-family: 'Overpass', sans-serif;
+}
+
+.fourColumn h6{
+    font-size: 20px;
+    margin: 10px 0 20px;
+}
+
+.fourColumn p{
+    font-size: 16px;
+    text-align: center;
+}

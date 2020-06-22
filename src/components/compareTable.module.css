@@ -1,0 +1,64 @@
+.tableContainer{
+    /* background: linear-gradient(40deg, rgba(129,185,203,1) 0%, rgba(135,165,189,1) 35%, rgba(136,183,178,1) 50%, rgba(184,162,203,1) 85%, rgba(152,175,217,1) 100%); */
+    background-image: url('../images/radicalBackground.png');
+    position: relative;
+    padding-bottom: 5% 
+}
+
+.lines{
+    position: absolute;
+    z-index: 1;
+}
+
+.leftLines, .rightLines{
+    top: 38%;
+}
+
+.rightLines{
+    right: 0
+}
+
+ table.compareTable {
+  border: 1px solid #C0A5CB;
+  background-color: #FFFFFF;
+  text-align: center;
+  border-collapse: collapse;
+  width: 70%;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2
+}
+  table.compareTable td,   table.compareTable th{
+  padding: 10px 10px;
+}
+  table.compareTable tbody td {
+  font-size: 18px;
+  color: #C0A5CB;
+  border: 2px solid #C0A5CB;
+}
+table.compareTable tbody tr:first-of-type td{
+    background: #C0A5CB;
+    border-right: 2px solid #ffffff;
+    color: #fff
+}
+
+table.compareTable tbody tr td:first-of-type{
+    font-weight: bold;
+}
+
+table.compareTable tbody tr:first-of-type td:last-of-type{
+    border-right: 2px solid #C0A5CB;
+}
+
+  table.compareTable thead th {
+  font-size: 18px;
+  font-weight: bold;
+  color: #C0A5CB;
+  border-left: 2px solid #C0A5CB;
+  font-family: 'Overpass', sans-serif;
+}
+  table.compareTable thead th:first-child {
+  border-left: none;
+}
+
+

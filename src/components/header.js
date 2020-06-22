@@ -13,7 +13,7 @@ const Header = () => (
       </div>
       <div className={headerStyle.logoBanner}>
         <img src={logo} alt="supernatural logo" />
-        <a href="#">Get 35% off</a>
+        <a href="#">Get 35% off </a>
       </div>
     </div>
     {/* End of sticky header */}

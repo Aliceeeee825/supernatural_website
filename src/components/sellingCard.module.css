@@ -1,0 +1,128 @@
+.sellContainer{
+    margin: 2% 0 5%;
+}
+
+.sellContainer h2{
+    width: 60%;
+    margin: 3% auto;
+    text-align: center;
+}
+
+.twoColumnContainer{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    align-items: flex-start;
+}
+
+/* .twoColumn{
+    width: 50%;
+} */
+
+.left{
+    width: 50%;
+}
+
+.left h4{
+    font-family:'Overpass', sans-serif;
+    font-size: 40px;
+    margin: 5% 0 3%;
+}
+
+.rating{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5%
+}
+
+.rating a{
+    margin-left: 5%;
+    color: black;
+}
+
+.left p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.description{
+    display: flex;
+    align-items: flex-start;
+    width: 83%;
+}
+
+.description span{
+    font-weight: bold;
+    margin-right: 2%;
+    font-family: 'DM Serif Display', serif;
+    font-size: 30px;
+}
+
+.description p{
+    margin-bottom: 5%;
+}
+
+.left ul{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.left ul li{
+    font-size: 16px;
+    font-family: 'Overpass', sans-serif;
+}
+
+.priceRow{
+    display: flex;
+    font-family: 'DM Serif Display', serif;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: 83%;
+}
+
+.originalPrice{
+    color: #ff0000;
+    text-decoration: line-through;
+    font-size: 35px;
+}
+
+.newPrice{
+    font-size: 45px;
+    margin-right: 10%;
+    margin: 0 25% -1%;
+}
+
+.left button{
+    margin-top: 5%;
+    text-transform: uppercase;
+}
+
+.installments{
+    display: flex;
+    margin-top: 3%
+}
+
+.installments p,
+.installments a{
+    font-family: 'Overpass', sans-serif;
+    color: #1F3438;
+}
+
+.installments p{
+    font-size: 16px;
+    margin-right: 5px
+}
+
+.installments a{
+    font-size: 14px;
+    margin-left: 5px
+}
+
+.right{
+    position: relative;
+    width: 50%
+}
+
+.ball{
+    position: absolute;
+}

@@ -7,6 +7,9 @@ import SEO from "../components/seo"
 import CenteredText from "../components/centeredText"
 import CenterBanner from '../components/CenterBanner'
 import SellingCard from '../components/SellingCard'
+import TableOfIngredient from '../components/TableOfIngrediant'
+import FourColumns from '../components/FourColumns'
+import CompareTable from '../components/CompareTable'
 
 const IndexPage = () => (
   <Layout>
@@ -14,6 +17,9 @@ const IndexPage = () => (
     <CenteredText />
     <CenterBanner />
     <SellingCard />
+    <TableOfIngredient />
+    <FourColumns />
+    <CompareTable />
   </Layout>
 )
 
