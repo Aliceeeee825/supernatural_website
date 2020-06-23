@@ -17,7 +17,6 @@ const TableOfIngrediant = () => (
       >
         Counters + Granite
       </label>
-      <label className={style.minus} for="counter"></label>
       <div className={style.vl}></div>
       <table className={style.tableOfIngrediant}>
         <thead>
@@ -103,7 +102,6 @@ const TableOfIngrediant = () => (
       <label className={style.name} for="glass">
         Glass + Mirrors
       </label>
-      <label className={style.minus} for="glass"></label>
       <div className={style.vl}></div>
       <table className={style.tableOfIngrediant}>
         <thead>
@@ -213,7 +211,6 @@ const TableOfIngrediant = () => (
       <label className={style.name} for="bath">
         Bath + Tile
       </label>
-      <label className={style.minus} for="bath"></label>
       <div className={style.vl}></div>
       <table className={style.tableOfIngrediant}>
         <thead>
@@ -336,10 +333,9 @@ const TableOfIngrediant = () => (
     {/* wood table */}
     <div className={style.category}>
       <input type="checkbox" id="wood" />
-      <label className={style.name} for="wood" style={{ marginRight: "34%" }}>
+      <label className={style.name} for="wood">
         Wood + Floors
       </label>
-      <label className={style.minus} for="wood"></label>
       <div className={style.vl}></div>
       <table className={style.tableOfIngrediant}>
         <thead>
