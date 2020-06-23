@@ -5,7 +5,7 @@ import triangle from '../images/triangle.png'
 
 const TextWShape = () => (
   <div className={style.textWShapeContainer}>
-    <div className={style.triangle}>
+    <div className={`${style.triangle} ${style.left}`}>
       <img src={triangle} alt="" />
     </div>
     <div className={style.center}>

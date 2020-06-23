@@ -22,3 +22,13 @@
 .spacer{ 
     height: 25px
 }
+
+@media(max-width: 580px){
+    .thirdPartyContainer p{
+        font-size: 15px;
+        width: 80%
+    }
+    .thirdPartyContainer p:first-of-type{
+        width: 70%;
+    }
+}

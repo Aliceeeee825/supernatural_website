@@ -20,11 +20,16 @@
 }
 
 .text{
-    width: 40%
+    width: 40%;
+    position: relative;
 }
 
 .image{
     width: 50%
+}
+
+.mobileUnboxing{
+    display: none;
 }
 
 .text p{
@@ -37,9 +42,6 @@
     height: 20px
 }
 
-.text{
-    position: relative;
-}
 
 .right.text{
     margin-left: 5%
@@ -63,4 +65,39 @@
     margin-top: 8%;
     font-size: 27px;
     text-transform: uppercase;
+}
+
+@media(max-width: 680px){
+    .row{
+        flex-direction: column;
+    }
+    .left, .right{
+        width: 90%;
+    }
+    .image{
+        order: -1;
+    }
+    .text{
+        text-align: left;
+        margin: 5% 0;
+    }
+    .mobileUnboxing{
+        display: block;
+        width: 100%;
+    }
+    .desktopUnboxing{
+        display: none;
+    }
+    .flowerWCicle{
+        display: none;
+    }
+    .fancyFlower{
+        transform: rotate(180deg);
+        left: 90%;
+        top: -100%;
+    }
+    .twoColumnContainer button{
+        font-size: 18px;
+        margin-bottom: 5%;
+    }
 }

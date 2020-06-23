@@ -27,10 +27,27 @@
 }
 
 
-.mediaContainer img{
+.desktopContainer img{
     margin: 3% 3% 
 }
 
 .secondLine{
     justify-content: center;
+}
+
+.mobileContainer{
+    display: none;
+}
+
+@media(max-width: 600px){
+    .desktopContainer{
+        display: none;
+    }
+    .mobileContainer{
+        display: block;
+        margin-bottom: 5%;
+    }
+    .mobileContainer .slick-dots li.slick-active button::before{
+        color: #81B9CB
+    }
 }

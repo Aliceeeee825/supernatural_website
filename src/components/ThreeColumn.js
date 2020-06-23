@@ -7,18 +7,25 @@ import whiteButton from '../images/whiteButton.png'
 const ThreeColumn = () => (
   <div className={style.threeColumnContainer}>
     <div className={style.threeColumn}>
-        <div className={style.left}>
-          <h5>Try Supernatural for <span className="bold">35% off</span> today</h5>
-          <button><img src={whiteButton} alt=""/></button>
-        </div>
-        <div className={style.middle}>
+      <div className={style.left}>
+        <h5>
+          Try Supernatural for <span className="bold">35% off</span> today
+        </h5>
+        <button>
+          <img src={whiteButton} alt="" />
+        </button>
+      </div>
+      <div className={style.middle}>
+        <img src={leaf} alt="" />
+      </div>
+      <div className={style.right}>
+        <p>With your support, Supernatural gives back</p>
+        <br />
+        <div className={style.mobileImg}>
           <img src={leaf} alt="" />
         </div>
-        <div className={style.right}>
-          <p>With your support, Supernatural gives back</p>
-          <br />
-          <p>Two trees planted for every purchase.</p>
-        </div>
+        <p>Two trees planted for every purchase.</p>
+      </div>
     </div>
   </div>
 )

@@ -3,6 +3,7 @@ import style from "./twoColumnAlter.module.css"
 
 import product from '../images/productWLineLeft.png'
 import unboxing from '../images/unboxing.png'
+import unboxingWFlower from '../images/unboxingWFlower.png'
 import flowerWCicle from '../images/flowerMadeWCircles.png'
 import fancyFlower from '../images/fancyFlower.png'
 import cleaning from '../images/cleaning.png'
@@ -31,7 +32,8 @@ const twoColumnAlter = () => (
 
     <div className={style.row}>
       <div className={`${style.image} ${style.left}`}>
-        <img src={unboxing} alt="" />
+        <img className={style.desktopUnboxing} src={unboxing} alt="" />
+        <img className={style.mobileUnboxing} src={unboxingWFlower} alt="" />
       </div>
       <div className={`${style.text} ${style.right}`}>
         <h5>REDUCE CARBON EMISSIONS</h5>
@@ -52,7 +54,7 @@ const twoColumnAlter = () => (
           We use only natural ingredients from plants, minerals, and essential
           oils, which make our products safer for you, your home, and the earth.
         </p>
-        <img className={style.fancyFlower} src={fancyFlower} alt=""/>
+        <img className={style.fancyFlower} src={fancyFlower} alt="" />
       </div>
       <div className={`${style.image} ${style.right}`}>
         <img src={cleaning} alt="" />

@@ -2,13 +2,17 @@ html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}bo
 
 .clearfix:after {visibility: hidden; display: block; font-size: 0; content: ''; clear: both; height: 0; }
 
-html { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
+html { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 *, *:before, *:after {box-sizing: inherit}
 
 .visuallyhidden:not(:focus):not(:active) { position: absolute; width: 1px; height: 1px; margin: -1px;border: 0;padding: 0;white-space: nowrap;clip-path: inset(100%);clip: rect(00 0 0);overflow: hidden;}
 
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Overpass:wght@400;600;700;900&family=Roboto&display=swap');
+
+body{
+    overflow-x: hidden;
+}
 
 h2{
     font-size: 50px;
@@ -52,6 +56,10 @@ button{
 .wrapper{
     max-width: 1140px;
     margin: 0 auto;
+}
+
+.slick-slide img{
+    margin: 0 auto
 }
 
 @media(max-width: 767px){

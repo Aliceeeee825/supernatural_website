@@ -24,28 +24,30 @@ const SellingCard = () => (
           </p>
         </div>
         <div className={style.description}>
-            <span>4</span>
-            <p> Supernatural plant powered surface concentrates:</p>
+          <span>4</span>
+          <p> Supernatural plant powered surface concentrates:</p>
         </div>
-          <ul>
-            <li>Counters + Granite</li>
-            <li>Glass + Mirrors</li>
-            <li>Bath + Tile</li>
-            <li>Wood + Floors</li>
-          </ul>
+        <ul>
+          <li>Counters + Granite</li>
+          <li>Glass + Mirrors</li>
+          <li>Bath + Tile</li>
+          <li>Wood + Floors</li>
+        </ul>
 
         <div className={style.priceRow}>
           <div>
-              <span className={style.originalPrice}>$75</span>
-              <span className={style.newPrice}>$49</span>
+            <span className={style.originalPrice}>$75</span>
+            <span className={style.newPrice}>$49</span>
           </div>
           <img src={guranteed} alt="" />
         </div>
         <button>Add to cart for 35% off</button>
         <div className={style.installments}>
-          <p>or 4 interest-free installments of $13.13 by </p>
-          <img src={afterpay} alt="" />
-          <a href="#"> More Info</a>
+          <p>
+            or 4 interest-free installments of $13.13 by{" "}
+            <img src={afterpay} alt="" />
+            <a href="#"> More Info</a>
+          </p>
         </div>
       </div>
       <div className={`${style.twoColumn} ${style.right}`}>

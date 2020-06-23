@@ -19,22 +19,45 @@
 }
 
 .category{
-    border-bottom: 1px solid white;
-    width: 50%;
     margin: 0 auto;
     padding-bottom: 1%;
     margin-bottom: 1%;
-    display: flex;
-    justify-content: space-between;
+    text-align: center;
 }
 
-.category button{
+.category label{
     color: white;
     background: transparent;
     font-weight: bold;
-    font-size: 24;
+    /* font-size: 24px; */
     font-family: 'Overpass', sans-serif;
-    padding: 0
+    padding: 0;
+    position: relative;
+}
+
+.name{
+    margin-right: 33%
+}
+
+.vl{
+    border-bottom: 1px solid white;
+    width: 50%;
+    margin: 0 auto 2%;
+}
+
+input[type='checkbox']{
+    position: absolute;
+    display: none;
+}
+
+
+.category input ~ table{
+    display: none;
+}
+
+.category input:checked ~ table,
+.glass input:checked ~ table{
+    display: block;
 }
 
 .minus::after{
@@ -47,7 +70,6 @@
     font-size: 30px;
 }
 
-
  table.tableOfIngrediant {
   border: 1px solid #C0A5CB;
   background-color: #FFFFFF;
@@ -56,7 +78,7 @@
   width: 50%;
   margin: 0 auto;
   position: relative;
-  z-index: 2
+  z-index: 2;
 }
  table.tableOfIngrediant td,  table.tableOfIngrediant th{
   padding: 20px 10px;
@@ -104,6 +126,16 @@
         transform: rotate(90deg);
         width: 250px;
         z-index: 1;
+    }
+}
+
+@media(max-width: 400px){
+    .rightLines{
+        right: 15%;
+    }
+    .tableContainer{
+        padding-bottom: 30%;
+        background-repeat: no-repeat;
     }
 }
 

@@ -22,3 +22,30 @@
 .right{
     transform: rotate(180deg);
 }
+
+@media(max-width: 767px){
+    .textWShapeContainer{
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .triangle{
+        width: 140px
+    }
+    .left{
+        transform: rotate(90deg);
+        margin-top: -4%;
+    }
+    .right{
+        transform: rotate(270deg);
+        margin-bottom: -4%;
+    }
+}
+
+@media(max-width: 470px){
+    .left{
+        margin-top: -7%;
+    }
+    .right{
+        margin-bottom: -7%;
+    }
+}
