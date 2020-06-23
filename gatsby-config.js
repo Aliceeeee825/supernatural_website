@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/supernatural_website",
   siteMetadata: {
     title: `supernatural`,
     description: `Meet the first certified non-toxic cleaner, made from 100% all-natural ingredients.`,
