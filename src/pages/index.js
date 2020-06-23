@@ -16,6 +16,8 @@ import TwoColumnAlter from '../components/TwoColumnAlter'
 import ThirdParty from '../components/thirdParty'
 import TextWShape from '../components/TextWShape'
 
+// import Cart from '../components/BuyButton'
+
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />

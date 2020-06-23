@@ -13,7 +13,6 @@ const TableOfIngrediant = () => (
       <label
         className={style.name}
         for="counter"
-        style={{ marginRight: "30%" }}
       >
         Counters + Granite
       </label>
