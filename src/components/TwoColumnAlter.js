@@ -7,6 +7,7 @@ import unboxingWFlower from '../images/unboxingWFlower.png'
 import flowerWCicle from '../images/flowerMadeWCircles.png'
 import fancyFlower from '../images/fancyFlower.png'
 import cleaning from '../images/cleaning.png'
+import blackButton from '../images/blackButtonAlt.png'
 
 const twoColumnAlter = () => (
   <div className={style.twoColumnContainer}>
@@ -26,7 +27,7 @@ const twoColumnAlter = () => (
         </p>
       </div>
       <div className={`${style.image} ${style.right}`}>
-        <img src={product} alt="" />
+        <img className={style.productImg} src={product} alt="" />
       </div>
     </div>
 
@@ -60,7 +61,7 @@ const twoColumnAlter = () => (
         <img src={cleaning} alt="" />
       </div>
     </div>
-    <button>Add to cart & save 35%</button>
+    <button><img src={blackButton} alt=""/></button>
   </div>
 )
 

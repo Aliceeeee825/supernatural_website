@@ -23,27 +23,28 @@
   background-color: #FFFFFF;
   text-align: center;
   border-collapse: collapse;
-  width: 70%;
+  width: 85%;
   margin: 0 auto;
   position: relative;
   z-index: 2
 }
   table.compareTable td,   table.compareTable th{
-  padding: 10px 10px;
+  padding: 20px;
 }
   table.compareTable tbody td {
   font-size: 18px;
   color: #C0A5CB;
   border: 2px solid #C0A5CB;
 }
+
+  table.compareTable tbody td img{
+    width: 30px;
+  }
+
 table.compareTable tbody tr:first-of-type td{
     background: #C0A5CB;
     border-right: 2px solid #ffffff;
     color: #fff
-}
-
-table.compareTable tbody tr td:first-of-type{
-    font-weight: bold;
 }
 
 table.compareTable tbody tr:first-of-type td:last-of-type{

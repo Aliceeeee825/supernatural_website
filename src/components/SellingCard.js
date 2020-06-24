@@ -5,6 +5,7 @@ import fiveStars from '../images/fiveStars.png'
 import guranteed from '../images/guaranteed.png'
 import afterpay from '../images/afterPay.png'
 import bestseller from '../images/bestsellerImg.png'
+import blackButton from '../images/blackButtonSellingCard.png'
 
 const SellingCard = () => (
   <div className={style.sellContainer}>
@@ -41,12 +42,11 @@ const SellingCard = () => (
           </div>
           <img src={guranteed} alt="" />
         </div>
-        <button>Add to cart for 35% off</button>
+        <button><img src={blackButton} alt=""/></button>
         <div className={style.installments}>
           <p>
             or 4 interest-free installments of $13.13 by{" "}
             <img src={afterpay} alt="" />
-            <a href="#"> More Info</a>
           </p>
         </div>
       </div>

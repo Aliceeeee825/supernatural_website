@@ -4,6 +4,7 @@ import headerStyle from './header.module.css'
 
 import logo from '../images/logo.png';
 import productImgWDiscount from '../images/productImgwdiscount.png'
+import blackButton from '../images/blackButton.png'
 
 const Header = () => (
   <header>
@@ -29,7 +30,7 @@ const Header = () => (
           <span className={headerStyle.newPrice}>$49</span>
           <span className={headerStyle.shipping}>+ Free shipping</span>
         </div>
-        <button>Get 35% off your set</button>
+        <button><img src={blackButton} alt=""/></button>
       </div>
       {/* twocolumn left ends */}
       <div className={`${headerStyle.twoColumn} ${headerStyle.right}`}>

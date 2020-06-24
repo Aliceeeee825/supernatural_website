@@ -2,7 +2,8 @@
     /* background: linear-gradient(40deg, rgba(129,185,203,1) 0%, rgba(135,165,189,1) 35%, rgba(136,183,178,1) 50%, rgba(184,162,203,1) 85%, rgba(152,175,217,1) 100%); */
     background-image: url('../images/radicalBackground.png');
     position: relative;
-    padding-bottom: 5% 
+    padding-bottom: 5%;
+    background-size: cover;
 }
 
 .lines{
@@ -94,6 +95,7 @@ input[type='checkbox']{
   font-size: 18px;
   color: #C0A5CB;
   border: 2px solid #C0A5CB;
+  background: #fff;
 }
  table.tableOfIngrediant thead {
   background: #C0A5CB;
@@ -143,6 +145,15 @@ input[type='checkbox']{
     .tableContainer{
         padding-bottom: 30%;
         background-repeat: no-repeat;
+    }
+    .tableContainer h3{
+        padding-bottom: 5%;
+    }
+    table.tableOfIngrediant tbody td{
+        font-size: 13px;
+    }
+    table.tableOfIngrediant thead th{
+        font-size: 16px;
     }
 }
 

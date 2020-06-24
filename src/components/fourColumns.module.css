@@ -52,11 +52,20 @@
 
 @media(max-width: 520px){
     .fourColumn h6{
-        font-size: 18px;
+        font-size: 16px;
         margin-bottom: 8px;;
         text-align: center;
     }
     .fourColumn p{
         font-size: 14px;;
+    }
+}
+
+@media(max-width: 400px){
+    .fourColumn h6{
+        font-size: 14px;
+    }
+    .fourColumn p{
+        font-size: 12px;;
     }
 }

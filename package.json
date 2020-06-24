@@ -3,9 +3,8 @@
   "private": true,
   "description": "A simple starter to get up and developing quickly with Gatsby",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Alice Song <zhuyingsong0825@gmail.com>",
   "dependencies": {
-    "@xstate/react": "^0.8.1",
     "bootstrap": "^4.5.0",
     "gatsby": "^2.23.3",
     "gatsby-image": "^2.4.7",

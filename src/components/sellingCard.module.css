@@ -25,14 +25,18 @@
 
 .left h4{
     font-family:'Overpass', sans-serif;
-    font-size: 40px;
+    font-size: 32px;
     margin: 5% 0 3%;
 }
 
 .rating{
     display: flex;
     align-items: center;
-    margin-bottom: 5%
+    margin-bottom: 5%;
+}
+
+.rating img{
+    max-width: 33%;
 }
 
 .rating a{
@@ -55,7 +59,7 @@
     font-weight: bold;
     margin-right: 2%;
     font-family: 'DM Serif Display', serif;
-    font-size: 30px;
+    font-size: 40px;
 }
 
 .description p{
@@ -94,13 +98,13 @@
 
 .left button{
     margin-top: 5%;
-    text-transform: uppercase;
 }
 
 .installments{
     display: flex;
     margin-top: 3%;
     align-items: flex-start;
+    width: 115%;
 }
 
 .installments p,
@@ -151,7 +155,39 @@
 }
 
 @media(max-width: 400px){
+    .twoColumnContainer{
+        width: 100%;
+        justify-content: center;
+    }
+    .sellContainer h2{
+        width: 82%
+    }
+    .right{
+        padding-left: 0;
+    }
+    .left{
+        width: 90%;
+        padding-left: 0;
+    }
+    .left h4{
+        font-size: 28px;
+    }
+    .left p{
+        text-align: left;
+        margin-left: 2%;
+    }
+    .left ul{
+        margin-left: 2%;
+    }
+    .priceRow{
+        justify-content: space-around;
+        width: 100%
+    }
     .newPrice{
         margin: 0px 10% -1%
+    }
+    .installments p{
+        width: 75%;
+        text-align: center;
     }
 }

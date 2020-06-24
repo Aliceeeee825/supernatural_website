@@ -13,18 +13,19 @@
     align-items: center;
 }
 
-.left, .middle, .right{
+.left, .middle{
     width: 30%
 }
 
 .left{
-    font-size: 45px;
+    font-size: 35px;
     text-align: center;
 }
 
 .left h5{
     line-height: 1.5;
     font-weight: 400;
+    margin-bottom: 8%;
 }
 
 .left button{
@@ -37,10 +38,14 @@
 .middle{
     text-align: center
 }
+ 
+.right{
+    width: 24%
+ }
 
 .right p{
-    font-weight: 600;
-    font-size: 30px;
+    font-size: 20px;
+    line-height: 1.5;
 }
 
 .right img{
@@ -77,5 +82,18 @@
     }
     .right img{
         display: block;
+    }
+}
+
+@media(max-width: 500px){
+    .left h5{
+        font-size: 25px;
+        margin-top: 8%;
+    }
+    .left button{
+        margin: 5% 0;
+    }
+    .right p{
+        font-size: 20px;
     }
 }

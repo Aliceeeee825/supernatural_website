@@ -23,11 +23,16 @@
     margin: 0 auto;
     font-family: 'Overpass', sans-serif;
     line-height: 1.5;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .text p:last-of-type{
     width: 80%;
+}
+
+
+.leftCorner.mobile{
+    display: none;
 }
 
 /* responsive design */
@@ -49,8 +54,15 @@
 @media (max-width: 500px){
     .text{
         margin-bottom: 18%;
+        width: 90%;
     }
     .leftCorner.mobile{
         left: 30%;
+    }
+    .text p{
+        text-align: left;
+    }
+    .text p:last-of-type{
+        width: 100%;
     }
 }
