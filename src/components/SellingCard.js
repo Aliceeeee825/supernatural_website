@@ -5,10 +5,11 @@ import fiveStars from '../images/fiveStars.png'
 import guranteed from '../images/guaranteed.png'
 import afterpay from '../images/afterPay.png'
 import bestseller from '../images/bestsellerImg.png'
+import bestsellerMobile from '../images/bestsellerImgMobile.png'
 import blackButton from '../images/blackButtonSellingCard.png'
 
 const SellingCard = () => (
-  <div className={style.sellContainer}>
+  <div className={style.sellContainer} id="sellingCard">
     <h2>Say goodbye to harsh chemicals. Say hello to Supernatural</h2>
 
     <div className={style.twoColumnContainer}>
@@ -42,7 +43,11 @@ const SellingCard = () => (
           </div>
           <img src={guranteed} alt="" />
         </div>
-        <button><img src={blackButton} alt=""/></button>
+        <button>
+          <a href="https://supernatural.com/cart/1249396752413:1?discount=WELCOME35">
+            <img src={blackButton} alt="" />
+          </a>
+        </button>
         <div className={style.installments}>
           <p>
             or 4 interest-free installments of $13.13 by{" "}
@@ -51,7 +56,8 @@ const SellingCard = () => (
         </div>
       </div>
       <div className={`${style.twoColumn} ${style.right}`}>
-        <img src={bestseller} alt="" />
+        <img className={style.desktop} src={bestseller} alt="" />
+        <img className={style.mobile} src={bestsellerMobile} alt="" />
       </div>
     </div>
   </div>

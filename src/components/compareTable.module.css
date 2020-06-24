@@ -32,7 +32,7 @@
   padding: 20px;
 }
   table.compareTable tbody td {
-  font-size: 18px;
+  font-size: 15px;
   color: #C0A5CB;
   border: 2px solid #C0A5CB;
 }
@@ -52,7 +52,7 @@ table.compareTable tbody tr:first-of-type td:last-of-type{
 }
 
   table.compareTable thead th {
-  font-size: 18px;
+  font-size: 15px;
   font-weight: bold;
   color: #C0A5CB;
   border-left: 2px solid #C0A5CB;

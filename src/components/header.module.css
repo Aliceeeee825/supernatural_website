@@ -7,10 +7,6 @@ header{
     font-family:'Overpass', sans-serif;
 }
 
-.stickyHeader{
-    /* position: fixed; */
-}
-
 .leadFlow{
     text-align: center;
     color: #f8f8f8;

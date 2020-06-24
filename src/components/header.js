@@ -14,7 +14,9 @@ const Header = () => (
       </div>
       <div className={headerStyle.logoBanner}>
         <img src={logo} alt="supernatural logo" />
-        <a href="#">Get 35% off </a>
+        <a href="https://supernatural.com/cart/1249396752413:1?discount=WELCOME35">
+          Get 35% off{" "}
+        </a>
       </div>
     </div>
     {/* End of sticky header */}
@@ -24,19 +26,27 @@ const Header = () => (
           Meet the first certified non-toxic cleaner, made from 100% all-natural
           ingredients.
         </h1>
-        <p>For a limited-time only, get <span className={headerStyle.bold}>35% off</span> the starter set.</p>
+        <p>
+          For a limited-time only, get{" "}
+          <span className={headerStyle.bold}>35% off</span> the starter set.
+        </p>
         <div className={headerStyle.priceRow}>
           <span className={headerStyle.originalPrice}>$75</span>
           <span className={headerStyle.newPrice}>$49</span>
           <span className={headerStyle.shipping}>+ Free shipping</span>
         </div>
-        <button><img src={blackButton} alt=""/></button>
+        <button>
+          <a href="#sellingCard">
+            <img src={blackButton} alt="" />
+          </a>
+        </button>
       </div>
       {/* twocolumn left ends */}
       <div className={`${headerStyle.twoColumn} ${headerStyle.right}`}>
         <img
           src={productImgWDiscount}
-          alt="product image with the 35% off label"/>
+          alt="product image with the 35% off label"
+        />
       </div>
     </div>
     {/* two column container ends here */}

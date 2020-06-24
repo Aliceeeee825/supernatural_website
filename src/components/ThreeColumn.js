@@ -12,7 +12,7 @@ const ThreeColumn = () => (
           Try Supernatural for <span className="bold">35% off</span> today
         </h5>
         <button>
-          <img src={whiteButton} alt="" />
+          <a href="#sellingCard"><img src={whiteButton} alt="" /></a>
         </button>
       </div>
       <div className={style.middle}>

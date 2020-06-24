@@ -88,12 +88,15 @@
 @media(max-width: 500px){
     .left h5{
         font-size: 25px;
-        margin-top: 8%;
+        width: 70%;
+        margin: 8% auto 0;
     }
     .left button{
         margin: 5% 0;
     }
     .right p{
         font-size: 20px;
+        width: 75%;
+        margin: 0 auto;
     }
 }

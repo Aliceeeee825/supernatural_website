@@ -61,7 +61,7 @@ const twoColumnAlter = () => (
         <img src={cleaning} alt="" />
       </div>
     </div>
-    <button><img src={blackButton} alt=""/></button>
+    <button><a href="#sellingCard"><img src={blackButton} alt=""/></a></button>
   </div>
 )
 

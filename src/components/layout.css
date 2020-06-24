@@ -59,7 +59,7 @@ button{
 }
 
 .slick-slide img{
-    margin: 2% auto
+    margin: 2% auto;
 }
 
 @media(max-width: 767px){
@@ -89,5 +89,8 @@ button{
     }
     p{
         font-size:14px
+    }
+    .slick-slide img{
+        width: 15%;
     }
 }

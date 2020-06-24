@@ -23,7 +23,7 @@ const IndexPage = () => (
     <SEO title="Home" />
     <CenteredText />
     <CenterBanner />
-    <SellingCard />
+    <SellingCard/>
     <TableOfIngredient />
     <FourColumns />
     <CompareTable />

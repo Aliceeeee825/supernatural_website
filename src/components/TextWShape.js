@@ -15,7 +15,9 @@ const TextWShape = () => (
         Supernatural is here to change that.
       </p>
       <button>
-        <img src={blackButton} alt="" />
+        <a href="#sellingCard">
+          <img src={blackButton} alt="" />
+        </a>
       </button>
     </div>
     <div className={`${style.triangle} ${style.right}`}>

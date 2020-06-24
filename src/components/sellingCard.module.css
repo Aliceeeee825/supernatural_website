@@ -128,6 +128,10 @@
     width: 50%
 }
 
+.mobile{
+    display: none;
+}
+
 .ball{
     position: absolute;
 }
@@ -189,5 +193,11 @@
     .installments p{
         width: 75%;
         text-align: center;
+    }
+    .desktop{
+        display: none;
+    }
+    .mobile{
+        display: block;
     }
 }
